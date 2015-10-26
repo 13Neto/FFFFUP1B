@@ -1,0 +1,22 @@
+#include<stdio.h>//Libreria de E/S
+/*
+*/
+float Byte;
+float resultadoKilo;
+float resultadoMega;
+float resultadoGiga;
+float resultadoTera;
+float main()
+{//Inicio
+   //Progrma que calcula diferentes cantidades
+   printf("Ingresa una cantidad cualquiera en Bytes:");	
+   scanf("%f",&Byte);
+    resultadoKilo=Byte*1024;
+    resultadoMega=Byte*1024;
+    resultadoGiga=Byte*1024*1024;
+    resultadoTera=Byte*1024*1024*1024;
+    printf("La conversion a Kilobytes es:%f\n",resultadoKilo); 
+    printf("La conversion a Megabytes es:%f\n",resultadoMega);
+    printf("La conversion a Gigabytes es:%f\n",resultadoGiga);
+    printf("La conversion a Terabytes es:%f\n",resultadoTera);
+}//Fin
